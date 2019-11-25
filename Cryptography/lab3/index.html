@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container col-12">
+        <form>
+            <div class="col-12">
+                <label for="text">Text</label><br>
+                <textarea class="" id="text" placeholder="some text..."></textarea>
+            </div>
+            <div class="col-12">
+                <label for="key">Secret key:</label><br>
+                <input type="text" id="key" placeholder="key" value="4 22 15" class="">
+            </div>
+            <div class="col-12">
+                <label for="result">Result</label><br>
+                <textarea class="" id="result" rows="3" disabled></textarea>
+            </div>
+
+            <div class="col-12">
+                <label for="result">Gamma</label><br>
+                <textarea class="" id="gamma" rows="3" disabled></textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn  mr-5" id="encrypt">Encrypt</button>
+                <button class="btn " id="decrypt">Decrypt</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
